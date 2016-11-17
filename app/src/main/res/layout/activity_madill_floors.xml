@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_madill_floors"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.plwang13.syefinalproject.MadillFloors">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scaleType="centerCrop"
+        android:src="@drawable/slu6"/>
+
+
+
+        <LinearLayout
+            android:gravity="center"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            >
+
+            <RadioGroup
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="30dp">
+                <Button
+                    android:id="@+id/madillfirst"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/_1st_floor"
+                    android:textAlignment="center"
+                    android:textSize="@dimen/menu_text_size"
+                    android:textColor= "@color/white"
+                    android:background="@drawable/custon_button"
+                    android:layout_marginBottom="15dp"
+                    />
+
+                <Button
+                    android:id="@+id/madillsecond"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/_2nd_floor"
+                    android:textSize="@dimen/menu_text_size"
+                    android:textAlignment="center"
+                    android:textColor= "@color/white"
+                    android:background="@drawable/custon_button"
+                    android:layout_marginTop="15dp"
+                    />
+            </RadioGroup>
+        </LinearLayout>
+
+</RelativeLayout>

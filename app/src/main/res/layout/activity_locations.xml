@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_locations"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.plwang13.syefinalproject.Locations">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scaleType="centerCrop"
+        android:src="@drawable/slu9"/>
+
+        <LinearLayout
+            android:gravity="center"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <RadioGroup
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="30dp">
+                <Button
+                    android:id="@+id/madill"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/madill"
+                    android:textSize="@dimen/menu_text_size"
+                    android:textAlignment="center"
+                    android:textColor= "@color/white"
+                    android:background="@drawable/custon_button"
+                    android:layout_marginBottom="15dp"
+                    />
+
+                <Button
+                    android:id="@+id/ody"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/ody"
+                    android:textSize="@dimen/menu_text_size"
+                    android:textAlignment="center"
+                    android:textColor= "@color/white"
+                    android:background="@drawable/custon_button"
+                    android:layout_marginTop="15dp"
+                    />
+            </RadioGroup>
+        </LinearLayout>
+
+</RelativeLayout>

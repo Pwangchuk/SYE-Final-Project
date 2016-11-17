@@ -1,0 +1,23 @@
+<resources>
+    <string name="app_name">SYEFinalProject</string>
+    <string name="location">Location</string>
+    <string name="about">About</string>
+    <string name="ok_label">OK</string>
+    <string name="about_text">\
+This app will make studying easier
+and more convenient by saving time. If a study room has the green icon, it is
+available for use. If it has the red icon, it is occupied.\n\
+\n\
+Change the room status by tapping on the room or its name.
+Be sure to change the status to available when you are done using the room and
+change it to occupied when you are using it to notify other people.
+</string>
+    <string name="ody">ODY</string>
+    <string name="madill">Madill</string>
+    <string name="_1st_floor">1st Floor</string>
+    <string name="_2nd_floor">2nd floor</string>
+    <string name="ody_first_floor">1st Floor</string>
+    <string name="ody_second_floor">2nd floor</string>
+    <string name="ody_third_floor">3rd floor</string>
+
+</resources>

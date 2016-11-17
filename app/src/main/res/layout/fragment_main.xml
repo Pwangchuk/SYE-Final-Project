@@ -1,0 +1,35 @@
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:elevation="4dp"
+    android:orientation="vertical"
+    tools:context="com.example.plwang13.syefinalproject.MainActivity">
+
+
+
+    <Button
+        android:id="@+id/Location"
+        android:layout_width="match_parent"
+        android:textAlignment="center"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:background="@drawable/custon_button"
+        android:text="@string/location"
+        android:textColor="@color/white"
+        android:textSize="@dimen/menu_text_size" />
+
+    <Button
+        android:id="@+id/About"
+        android:layout_width="match_parent"
+        android:textAlignment="center"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="@dimen/margin_top"
+        android:background="@drawable/custon_button"
+        android:text="@string/about"
+        android:textColor="@color/white"
+        android:textSize="@dimen/menu_text_size" />
+
+</LinearLayout>

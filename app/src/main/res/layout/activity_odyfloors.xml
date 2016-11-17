@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_odyfloors"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.plwang13.syefinalproject.ODYFloors">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scaleType="centerCrop"
+        android:src="@drawable/slu4"/>
+
+
+    <LinearLayout
+        android:gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <RadioGroup
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="30dp">
+            <Button
+                android:id="@+id/odyfirst"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/ody_first_floor"
+                android:textSize="@dimen/menu_text_size"
+                android:textColor= "@color/white"
+                android:background="@drawable/custon_button"
+                android:layout_marginBottom="15dp"
+                />
+
+            <Button
+                android:id="@+id/odysecond"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/ody_second_floor"
+                android:textSize="@dimen/menu_text_size"
+                android:textColor= "@color/white"
+                android:background="@drawable/custon_button"
+                android:layout_marginTop="15dp"
+                android:layout_marginBottom="15dp"
+                />
+
+            <Button
+                android:id="@+id/odythird"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/ody_third_floor"
+                android:textSize="@dimen/menu_text_size"
+                android:textColor= "@color/white"
+                android:background="@drawable/custon_button"
+                android:layout_marginTop="15dp"
+                />
+        </RadioGroup>
+    </LinearLayout>
+
+</RelativeLayout>
